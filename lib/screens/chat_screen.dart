@@ -5,6 +5,8 @@ import 'package:flash_chat_flutter/constants.dart';
 class ChatScreen extends StatefulWidget {
   const ChatScreen({super.key});
 
+  static const id = "chat_screen";
+
   @override
   _ChatScreenState createState() => _ChatScreenState();
 }
